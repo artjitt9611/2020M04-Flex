@@ -1,0 +1,34 @@
+.Flex-container{
+    display: flex;
+    flex-flow: row no-wrap;
+}
+.Flex-container2{
+    display:inline-flex;
+    flex-flow: row no-wrap;
+    flex-direction: column; 
+}
+
+.bg-blue{
+    background-color:skyblue;
+}
+.bg-red{
+    background-color:gray;
+}
+
+.Flex-container>div {
+    background-color: gray;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+}
+
+.Flex-container2>div {
+    background-color:aliceblue;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+}
+
+
